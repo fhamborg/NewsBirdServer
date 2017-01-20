@@ -1,0 +1,2 @@
+data/largedump.txt filter=lfs diff=lfs merge=lfs -text
+data/translation/translationdirectory.p filter=lfs diff=lfs merge=lfs -text
