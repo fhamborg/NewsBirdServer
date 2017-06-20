@@ -4,4 +4,5 @@ This is the source code of the server component of the NewsBird project. You can
 Please note that we are currently preparing both repositories, which mainly will include
 * add a documentation how to setup the tool
 * remove code that is not required anylonger in the final versino of NewsBird
-* ffdafda
+
+If you have any question until then, please just send a mail to felix.hamborg@uni-konstanz.de.
