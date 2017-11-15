@@ -34,12 +34,6 @@ public class SentimentAnalyzer {
     protected final Language language;
     private final SentenceSplitter sentenceSplitter;
 
-    /**
-     * Not implemented yet, use the constructor without params.
-     *
-     * @param language
-     * @throws java.io.IOException
-     */
     public SentimentAnalyzer(final Language language) throws IOException {
         if (language != Language.EN) {
             throw new RuntimeException("lang=" + language + " not implemented yet");
@@ -68,15 +62,6 @@ public class SentimentAnalyzer {
         sa.calcSentiment("Bad."); // 1
         sa.calcSentiment("Worst."); // 2
         sa.calcSentiment("Sad."); // 2
-        sa.calcSentiment("I am a sad guy."); // 2
-        sa.calcSentiment("This is war."); // 1
-        sa.calcSentiment("I will punch you right in your stupid face."); // 3
-        sa.calcSentiment("Death"); // 1
-        sa.calcSentiment("He will kill her And afterwards she is going to die."); // 1
-        sa.calcSentiment("He will kill her And afterwards she is going to die. LOL that is funny."); // 2
-        sa.calcSentiment("He will kill her And afterwards she is going to die. "
-                + "LOL that is funny and hilarious. I am laughing! We are having a lot of fun. "
-                + "Enjoy. Fun. Nice. Cool. Good."); // 3
     }
 
     /**
