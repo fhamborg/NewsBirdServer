@@ -25,16 +25,8 @@ public class EasyTranslator {
     static public long textTooLargeCount = 0;
 
     static {
-        //Translate.setClientId("emmtranslatems");
-        //Translate.setClientSecret("Q7dcbvVRtgwX3YC32V+GxF08b8y8ZPWuHfI8+42s9u4=");
-        // Translate.setClientId("fickfistfist");
-        // Translate.setClientSecret("Cu7GCHQ/iz9yoZxCnHdp+8wf8LQ0gIfgPXd2RXa37w8=");
-        // Translate.setClientId("emmshid");
-        // Translate.setClientSecret("3i1T+plhE8XiH4fjlbh9WIsD9PcjpHNhaOB5CRKspBE=");
-        //Translate.setClientId("pisdapisda");
-        //Translate.setClientSecret("PBwrD6CDpgAOsX8nCBP39t91tPLx2+cuDQ4bTV1JgrI=");
-        Translate.setClientId("emmtranslatorfh");
-        Translate.setClientSecret("RDjr0vVNdbTiKcTPgxizJTwkaC2olOfSshks2njAxds=");
+        Translate.setClientId("emmtranslator");
+        Translate.setClientSecret("12jr0vVNdbTiKcTPgxizJTwkaC2olOfSshks2njAxds=");
     }
     private static final int DISABLE_CHECK_AFTER_COUNT = Integer.MAX_VALUE;
     private static int lastKnown = 0;
