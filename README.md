@@ -5,4 +5,4 @@ Please note that we are currently preparing both repositories, which mainly will
 * add a documentation how to setup the tool
 * remove code that is not required any longer in the final version of NewsBird
 
-If you have any question until then, just send a mail to felix.hamborg@uni-konstanz.de.
+If you have any question until then, just send an email to felix.hamborg@uni-konstanz.de.
